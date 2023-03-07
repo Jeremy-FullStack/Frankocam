@@ -1,0 +1,299 @@
+
+/*arrière plan*/
+body{
+    margin: 10 auto;
+    background-color: rgba(241, 241, 241, 0.54); 
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100vh;
+    
+
+}
+.contenu{
+    /*grow shrink basis */
+    flex: 1 0 auto;
+}
+.contenu p{
+    padding: 5vw 10vw;
+    text-align: justify;
+}
+
+img {
+    float: center;
+    width: 99px;
+}
+
+/*Block navigation*/
+.menu{
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    position: center;
+    top: 0;
+    
+}
+
+
+.menu li{
+    list-style-type: none;
+}/*supression des puces*/
+
+/*transormation en block*/
+.menu a{
+    display: block;
+    min-width: 150px;
+    margin: 0.5rem;
+    padding: 0.4rem;
+    text-align: center;
+    background-color:rgb(241, 245, 196) ;
+    color: rgb(24, 9, 178);
+    text-decoration: none;
+    border: 1px solid rgb(40, 6, 211);
+    border-radius: 10px;
+    transition: all 0.5s;
+} 
+
+.menu a:hover{
+    background-color: rgb(204, 204, 225);
+    color: rgb(222, 37, 37);
+    border-color: rgb(15, 220, 32);
+}
+
+/*BLOCK glace*/
+.glace{
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    
+}
+
+.glace img{
+    display: block;
+    min-width: 150px;
+    margin-top: 70px;
+    padding: 0.4rem;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.titreglace{
+    display: center;
+    position: center;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(2, 2, 20);
+    
+}
+
+.glace li{
+    list-style-type: none;
+}
+
+/*BLOCK yaourt*/
+.yaourt{
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.yaourt li{
+    list-style-type: none;
+}
+
+.yaourt img{
+    display: block;
+    min-width: 100px;
+    margin-top: 40px;
+    padding: 0.4rem;
+    width: 200px;
+    height: 200px;
+}
+
+/*BLOCK BIERE*/
+
+
+.titreboissons{
+    display: center;
+    position: center;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(6, 6, 6);
+}
+
+.titresecond{
+    display: center;
+    position: center;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(14, 14, 18);
+}
+
+.bière {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.bière li{
+    list-style-type: none;
+}
+
+.bière img{
+    display: block;
+    min-width: 200px;
+    margin-top: 90px;
+    padding: 0.4rem;
+    width: 300px;
+    height: 300px;
+}
+/*BLOCK JUS*/
+.jus {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.jus li{
+    list-style-type: none;
+}
+.jus img{
+    display: block;
+    min-width: 150px;
+    margin-top: 70px;
+    padding: 0.4rem;
+    width: 200px;
+    height: 300px;
+}
+
+
+
+
+/*BLOCK PLATS*/
+
+.titreplats{
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    color: rgb(13, 13, 20);
+}
+
+.tchop{
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.tchop li{
+    list-style-type: none;
+}
+.tchop img{
+    display: block;
+    min-width: 150px;
+    margin-top: 90px;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+}
+.faf{
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.faf li{
+    list-style-type: none;
+}
+.faf img{
+    display: block;
+    min-width: 150px;
+    margin-top: 70px;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+/*footer*/
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed#000;
+    background: rgb(140, 139, 144);
+    width: 100%;
+    color: rgb(15, 17, 15);
+}
+
+.contenu-footer{
+    width: 1500px;
+    justify-content: space-evenly;
+    padding: 0 auto;
+    display: flex;
+    position: center;
+    font-size: 15px;
+    padding: 0;
+}
+
+.listers img{
+width: 30px;
+height: 30px;
+display: flex;
+margin: 10px;
+}
+.liste-services{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+.liste-services li{
+    list-style-type: none;
+}
+.week{
+    display: flex;
+
+}
+.week li{
+    list-style-type: none;
+}
+
+.blofs{
+    width: 10px;
+    margin: 10px;
+    padding: 0;
+    
+    justify-content:flex-start;
+
+    
+}
+.listers{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.listers li{
+    list-style-type: none;
+}
+.listehs{
+    display: flex;
+    margin: 1px;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+.listehs li{
+    list-style-type: none;
+}
+
+.mention li{
+    list-style-type: none;
+}
+.mention{
+    display: block;
+    text-decoration: none;
+}
+.zang{
+    display: flex;
+    text-decoration: none;
+}
+
